@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+[![Run CI](https://github.com/AhmedELShafaie/hello-react/actions/workflows/run-ci.yaml/badge.svg?branch=release%2Fv1)](https://github.com/AhmedELShafaie/hello-react/actions/workflows/run-ci.yaml)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

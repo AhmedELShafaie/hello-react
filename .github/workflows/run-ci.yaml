@@ -1,0 +1,38 @@
+name: runci
+on: 
+ push:
+  branches:
+    - "release/*"
+
+jobs:
+
+ build:
+  name: build-node
+  runs-on: ubuntu-latest
+  steps:
+     - name: checkout Code
+       uses: actions/checkout@v2.3.4
+
+     - name: Creating Cache
+       uses: actions/cache@v2.1.3
+       with: 
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+      
+     - name: Install npm deps
+       run: | 
+        npm install
+
+
+        
+        
+
+
+    
+
+
+       
+    
+
