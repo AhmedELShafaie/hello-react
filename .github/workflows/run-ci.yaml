@@ -1,5 +1,4 @@
-name: "Run-CI"
-
+name: runci
 on: 
  push:
   branches:
