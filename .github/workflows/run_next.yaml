@@ -5,6 +5,8 @@ on:
   workflow_run:
     workflows:
       - Run-CI
+    branches:
+      - "release/*"
     types:
       - completed
 
