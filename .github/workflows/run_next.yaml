@@ -9,6 +9,7 @@ on:
       - "release/*"
     types:
       - completed
+      - requested
 
 jobs: 
 
