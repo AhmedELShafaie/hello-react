@@ -5,11 +5,10 @@ on:
   workflow_run:
     workflows:
       - runci
-    branches:
-      - "release/*"
+
     types:
       - completed
-      - requested
+      
 
 jobs: 
 
