@@ -1,8 +1,7 @@
 name: runci
 on: 
  push:
-  branches:
-    - "release/*"
+ 
 
 jobs:
 
