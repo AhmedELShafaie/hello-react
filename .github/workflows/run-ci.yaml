@@ -1,4 +1,4 @@
-name: "Run CI"
+name: "Run-CI"
 
 on: 
  push:
@@ -23,7 +23,9 @@ jobs:
           ${{ runner.os }}-node-
       
      - name: Install npm deps
-       run: npm install 
+       run: | 
+        npm install
+
 
         
         
