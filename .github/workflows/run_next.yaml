@@ -3,7 +3,8 @@ name: "Run next to run-ci.yaml"
 
 on: 
   workflow_run:
-    workflows: "Run CI"
+    workflows: 
+     - "Run CI"
     branches: 
       - "release/*"
     types: 
@@ -25,4 +26,3 @@ jobs:
             echo "{{ GITHUB_WORKFLOW}}"
             echo "{{ GITHUB_SHA }}"
             echo "{{ GITHUB_REF }}"
-            
