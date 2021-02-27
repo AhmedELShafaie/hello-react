@@ -2,12 +2,9 @@ name: "Run next to run-ci.yaml"
 
 
 on: 
-  workflow_run:
-    workflows: 
-     - "Run-CI"
- 
-    types: 
-      - completed
+  push:
+    branches:
+      - "release/*"
 
 
 jobs: 
