@@ -4,7 +4,7 @@ name: "Run next to run-ci.yaml"
 on: 
   workflow_run:
     workflows: 
-     - "Run CI"
+     - "Run-CI"
     branches: 
       - "release/*"
     types: 
